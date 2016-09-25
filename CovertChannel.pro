@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    clientdriver.cpp \
+    netutils.cpp \
+    serverdriver.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    clientdriver.h \
+    netutils.h \
+    serverdriver.h
 
 FORMS    += mainwindow.ui
